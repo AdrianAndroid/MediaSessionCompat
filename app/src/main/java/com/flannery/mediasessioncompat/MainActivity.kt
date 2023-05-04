@@ -6,6 +6,10 @@ import android.view.animation.LinearInterpolator
 import androidx.appcompat.app.AppCompatActivity
 import com.flannery.mediasessioncompat.databinding.ActivityMainBinding
 
+/**
+ * Android媒体播放框架MediaSessionCompat介绍实践
+ * https://blog.csdn.net/Jason_Lee155/article/details/116324582
+ */
 class MainActivity : AppCompatActivity() {
     private var mRoundAnimator: ValueAnimator? = null
     private lateinit var binding: ActivityMainBinding
